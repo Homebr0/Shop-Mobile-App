@@ -1,0 +1,12 @@
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.deps.json
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.csprojAssemblyReference.cache
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.AssemblyInfoInputs.cache
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.AssemblyInfo.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.pdb

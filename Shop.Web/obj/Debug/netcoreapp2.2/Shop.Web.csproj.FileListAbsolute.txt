@@ -28,3 +28,8 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Shop.Web.V
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Shop.Web.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Shop.Web.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Shop.Web.csproj.CopyComplete
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\Create.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\Delete.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\Details.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\Edit.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.g.cshtml.cs

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Shop.Web.Data;
-using Shop.Web.Models.Data.Entities;
+using Shop.Web.Data.Entities;
 
 namespace Shop.Web.Controllers
 {

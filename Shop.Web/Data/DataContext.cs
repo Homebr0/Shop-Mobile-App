@@ -2,7 +2,7 @@
 namespace Shop.Web.Data
 {
     using Microsoft.EntityFrameworkCore;
-    using Shop.Web.Models.Data.Entities;
+    using Shop.Web.Data.Entities;
 
     public class DataContext : DbContext
     {

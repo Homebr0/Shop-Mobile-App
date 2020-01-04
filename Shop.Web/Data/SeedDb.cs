@@ -2,10 +2,10 @@
 
 namespace Shop.Web.Data
 {
-    using Entities;
     using System;
     using System.Linq;
     using System.Threading.Tasks;
+    using Entities;
 
     public class SeedDb
     {
@@ -24,9 +24,9 @@ namespace Shop.Web.Data
 
             if (!this.context.Products.Any())
             {
-                this.AddProduct("First Product");
-                this.AddProduct("Second Product");
-                this.AddProduct("Third Product");
+                this.AddProduct("iPhone X");
+                this.AddProduct("Magic Mouse");
+                this.AddProduct("Apple Watch Series 7");
                 await this.context.SaveChangesAsync();
             }
         }
@@ -36,7 +36,7 @@ namespace Shop.Web.Data
             this.context.Products.Add(new Product
             {
                 Name = name,
-                Price = this.random.Next(100),
+                Price = this.random.Next(1000),
                 IsAvailabe = true,
                 Stock = this.random.Next(100)
             });

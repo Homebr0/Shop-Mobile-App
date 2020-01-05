@@ -18,31 +18,37 @@
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Price" class="control-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="ImageUrl" class="control-label"></label>
                 <input asp-for="ImageUrl" class="form-control" />
                 <span asp-validation-for="ImageUrl" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="LastPurchase" class="control-label"></label>
                 <input asp-for="LastPurchase" class="form-control" />
                 <span asp-validation-for="LastPurchase" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="LastSale" class="control-label"></label>
                 <input asp-for="LastSale" class="form-control" />
                 <span asp-validation-for="LastSale" class="text-danger"></span>
             </div>
+
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="IsAvailabe" /> @Html.DisplayNameFor(model => model.IsAvailabe)
                 </label>
             </div>
+
             <div class="form-group">
                 <label asp-for="Stock" class="control-label"></label>
                 <input asp-for="Stock" class="form-control" />
@@ -50,13 +56,14 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    
 </div>
 
 @section Scripts {

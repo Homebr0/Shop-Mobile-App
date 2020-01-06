@@ -102,5 +102,4 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Shop.UIForms.dll.mdb

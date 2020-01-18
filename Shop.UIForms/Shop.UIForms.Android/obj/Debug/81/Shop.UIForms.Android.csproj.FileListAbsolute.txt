@@ -55,8 +55,11 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\Mono.Security.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\Shop.UIForms.dll.mdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\GalaSoft.MvvmLight.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Shop.UIForms.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\GalaSoft.MvvmLight.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\mscorlib.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.Core.pdb
@@ -66,6 +69,7 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
@@ -74,13 +78,15 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.Transactions.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
-C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\Shop.UIForms.dll.mdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\GalaSoft.MvvmLight.Platform.dll.mdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\GalaSoft.MvvmLight.Platform.dll.mdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Shop.UIForms.dll.mdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\GalaSoft.MvvmLight.Platform.dll.mdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Shop.UIForms.dll.mdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\GalaSoft.MvvmLight.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Mono.Security.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\mscorlib.pdb
@@ -102,4 +108,7 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\bin\Debug\Shop.UIForms.dll.mdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\GalaSoft.MvvmLight.Platform.dll.mdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\linksrc\Shop.UIForms.dll.mdb

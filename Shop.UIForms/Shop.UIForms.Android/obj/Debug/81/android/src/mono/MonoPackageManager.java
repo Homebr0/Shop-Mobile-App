@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Shop.UIForms.Android.dll" comes first in this list. */
 		"Shop.UIForms.Android.dll",
 		"FormsViewGroup.dll",
+		"GalaSoft.MvvmLight.dll",
+		"GalaSoft.MvvmLight.Platform.dll",
 		"Shop.UIForms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

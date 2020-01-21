@@ -5,6 +5,7 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Shop.UIForms.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\System.dll
@@ -55,4 +56,5 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Shop.Common.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms.Android\obj\Debug\81\android\assets\Mono.Security.dll

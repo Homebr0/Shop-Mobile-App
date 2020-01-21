@@ -1,6 +1,7 @@
 FormsViewGroup
 GalaSoft.MvvmLight
 GalaSoft.MvvmLight.Platform
+Newtonsoft.Json
 Shop.UIForms
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -27,4 +28,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Shop.Common
 System.Reflection.Extensions

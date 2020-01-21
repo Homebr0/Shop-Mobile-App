@@ -110,6 +110,7 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"GalaSoft.MvvmLight.dll",
 		"GalaSoft.MvvmLight.Platform.dll",
+		"Newtonsoft.Json.dll",
 		"Shop.UIForms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -134,6 +135,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Shop.Common.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

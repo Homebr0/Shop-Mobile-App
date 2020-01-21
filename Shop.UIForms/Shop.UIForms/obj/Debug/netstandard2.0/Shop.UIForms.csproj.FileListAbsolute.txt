@@ -10,3 +10,7 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstan
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.Common.dll
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.Common.pdb
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.csproj.CopyComplete

@@ -39,17 +39,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
                         </li>
                     </ul>
-
+                    
                 </div>
-                <ul class="navbar-nav ml-auto">
+                <ul class="nav justify-content-end">
                     @if (this.User.Identity.IsAuthenticated)
                     {
-                        <li><a asp-area="" asp-controller="Account" asp-action="ChangeUser">@this.User.Identity.Name</a></li>
-                        <li><a asp-area="" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="ChangeUser">@this.User.Identity.Name</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a></li>
                     }
                     else
                     {
-                        <li><a asp-area="" asp-controller="Account" asp-action="Login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a></li>
                     }
                 </ul>
 

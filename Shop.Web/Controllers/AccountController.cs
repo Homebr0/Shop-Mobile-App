@@ -104,6 +104,9 @@ namespace Shop.Web.Controllers
 
                     var result2 = await this.userHelper.LoginAsync(loginViewModel);
 
+
+                    
+
                     if (result2.Succeeded)
                     {
                         return this.RedirectToAction("Index", "Home");
@@ -234,6 +237,11 @@ namespace Shop.Web.Controllers
             }
 
             return this.BadRequest();
+        }
+
+        public IActionResult NotAuthorized()
+        {
+            return this.View();
         }
 
     }

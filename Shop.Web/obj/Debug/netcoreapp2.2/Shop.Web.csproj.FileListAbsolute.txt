@@ -37,3 +37,6 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\ChangeUser.g.cshtml.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\ChangePassword.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\NotAuthorized.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Products\ProductNotFound.g.cshtml.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Error404.g.cshtml.cs

@@ -44,3 +44,4 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Index.cshtml.g.cs

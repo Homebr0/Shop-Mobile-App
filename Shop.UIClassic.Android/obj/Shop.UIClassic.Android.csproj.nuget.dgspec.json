@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jason\\Desktop\\Projects\\Shop\\Shop.UIClassic.Android\\Shop.UIClassic.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jason\\Desktop\\Projects\\Shop\\Shop.UIClassic.Android\\Shop.UIClassic.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jason\\Desktop\\Projects\\Shop\\Shop.UIClassic.Android\\Shop.UIClassic.Android.csproj",
+        "projectName": "Shop.UIClassic.Android",
+        "projectPath": "C:\\Users\\Jason\\Desktop\\Projects\\Shop\\Shop.UIClassic.Android\\Shop.UIClassic.Android.csproj",
+        "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jason\\Desktop\\Projects\\Shop\\Shop.UIClassic.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

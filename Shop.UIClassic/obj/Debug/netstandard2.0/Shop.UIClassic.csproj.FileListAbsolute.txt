@@ -2,7 +2,6 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\bin\Debug\netstandard2.0\Sho
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\bin\Debug\netstandard2.0\Shop.UIClassic.dll
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\bin\Debug\netstandard2.0\Shop.UIClassic.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\obj\Debug\netstandard2.0\Shop.UIClassic.csprojAssemblyReference.cache
-C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\obj\Debug\netstandard2.0\Shop.UIClassic.csproj.CoreCompileInputs.cache
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\obj\Debug\netstandard2.0\Shop.UIClassic.AssemblyInfoInputs.cache
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\obj\Debug\netstandard2.0\Shop.UIClassic.AssemblyInfo.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIClassic\obj\Debug\netstandard2.0\Shop.UIClassic.dll

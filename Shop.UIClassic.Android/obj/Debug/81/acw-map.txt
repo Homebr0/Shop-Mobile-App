@@ -1,6 +1,6 @@
-Shop.UIClassic.Android.MainActivity, Shop.UIClassic.Android;md55b9e4e18f4c235bb1f0b982dafb8ad98.MainActivity
-Shop.UIClassic.Android.MainActivity;md55b9e4e18f4c235bb1f0b982dafb8ad98.MainActivity
-shop.uiclassic.android.MainActivity;md55b9e4e18f4c235bb1f0b982dafb8ad98.MainActivity
+Shop.UIClassic.Android.MainActivity, Shop.UIClassic.Android;crc64ca7c7c4788ebd130.MainActivity
+Shop.UIClassic.Android.MainActivity;crc64ca7c7c4788ebd130.MainActivity
+shop.uiclassic.android.MainActivity;crc64ca7c7c4788ebd130.MainActivity
 Android.Support.V4.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
 Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
 mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor

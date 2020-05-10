@@ -22,7 +22,6 @@ namespace Shop.Web.Controllers
         private readonly IProductRepository productRepository;
 
         private readonly IUserHelper userHelper;
-
         public ProductsController(IProductRepository productRepository, IUserHelper userHelper)
         {
             this.productRepository = productRepository;
@@ -53,7 +52,7 @@ namespace Shop.Web.Controllers
         }
 
         // GET: Products/Create
-        
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -61,6 +60,7 @@ namespace Shop.Web.Controllers
 
         // POST: Products/Create
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductViewModel view)
         {
@@ -115,6 +115,7 @@ namespace Shop.Web.Controllers
         }
 
         // GET: Products/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -150,6 +151,7 @@ namespace Shop.Web.Controllers
         }
 
         // POST: Products/Edit/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(ProductViewModel view)
@@ -201,6 +203,7 @@ namespace Shop.Web.Controllers
         }
 
         // GET: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -218,6 +221,7 @@ namespace Shop.Web.Controllers
         }
 
         // POST: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

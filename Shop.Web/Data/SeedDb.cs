@@ -35,7 +35,7 @@
                     FirstName = "Jason",
                     LastName = "Davila",
                     Email = "jdavi247@fiu.edu",
-                    UserName = "Administrator",
+                    UserName = "jdavi247@fiu.edu",
                     PhoneNumber = "3055033005"
                 };
 
@@ -45,6 +45,7 @@
                     throw new InvalidOperationException("Could not create the user in seeder");
                 }
                 await this.userHelper.AddUserToRoleAsync(user, "Admin");
+                await this.userHelper.IsUserInRoleAsync(user, "Admin");
             }
 
             var isInRole = await this.userHelper.IsUserInRoleAsync(user, "Admin");

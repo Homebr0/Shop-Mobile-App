@@ -3,7 +3,6 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstan
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\bin\Debug\netstandard2.0\Shop.UIForms.pdb
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.csprojAssemblyReference.cache
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.csproj.CoreCompileInputs.cache
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.AssemblyInfoInputs.cache
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.AssemblyInfo.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.UIForms\Shop.UIForms\obj\Debug\netstandard2.0\Shop.UIForms.dll

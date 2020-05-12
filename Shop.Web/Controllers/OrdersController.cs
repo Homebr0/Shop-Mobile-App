@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Shop.Web.Data;
 using Shop.Web.Data.Repositories;
+using Shop.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +14,14 @@ namespace Shop.Web.Controllers
     public class OrdersController : Controller
     {
         private readonly IOrderRepository orderRepository;
+        private readonly IProductRepository productRepository;
 
-        public OrdersController(IOrderRepository orderRepository)
+        public OrdersController(
+            IOrderRepository orderRepository,
+            IProductRepository productRepository)
         {
             this.orderRepository = orderRepository;
+            this.productRepository = productRepository;
         }
 
         public async Task<IActionResult> Index()
@@ -24,6 +30,34 @@ namespace Shop.Web.Controllers
             return View(model);
         }
 
+        public async Task<IActionResult> Create()
+        {
+            var model = await this.orderRepository.GetDetailTempsAsync(this.User.Identity.Name);
+            return this.View(model);
+        }
+
+        public IActionResult AddProduct()
+        {
+            var model = new AddItemViewModel
+            {
+                Quantity = 1,
+                Products = this.productRepository.GetComboProducts()
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddProduct(AddItemViewModel model)
+        {
+            if (this.ModelState.IsValid)
+            {
+                await this.orderRepository.AddItemToOrderAsync(model, this.User.Identity.Name);
+                return this.RedirectToAction("Create");
+            }
+
+            return this.View(model);
+        }
 
     }
 }

@@ -7,6 +7,7 @@ namespace Shop.Web.Data.Repositories
     using Microsoft.EntityFrameworkCore;
     using Shop.Web.Helpers;
     using Shop.Web.Models;
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
@@ -33,6 +34,7 @@ namespace Shop.Web.Data.Repositories
             if (await this.userHelper.IsUserInRoleAsync(user, "Admin"))
             {
                 return this.context.Orders
+                    .Include(o => o.User)
                     .Include(o => o.Items)
                     .ThenInclude(i => i.Product)
                     .OrderByDescending(o => o.OrderDate);
@@ -143,6 +145,49 @@ namespace Shop.Web.Data.Repositories
             await this.context.SaveChangesAsync();
         }
 
+        public async Task<bool> ConfirmOrderAsync(string userName)
+        {
+            //Find the user placing the order in our database
+            var user = await this.userHelper.GetUserByEmailAsync(userName);
+            if (user == null)
+            {
+                return false;
+            }
+
+            //Grabbing all products which the user has saved in their order temp and creates a list of them
+            var orderTmps = await this.context.OrderDetailTemps
+                .Include(o => o.Product)
+                .Where(o => o.User == user)
+                .ToListAsync();
+
+            //If no items, return false
+            if (orderTmps == null || orderTmps.Count == 0)
+            {
+                return false;
+            }
+
+            //Grab all temp orders from our list and copy them into a COMPLETED order list
+            var details = orderTmps.Select(o => new OrderDetail
+            {
+                Price = o.Price,
+                Product = o.Product,
+                Quantity = o.Quantity
+            }).ToList();
+
+            //Turn that list into an Order object
+            var order = new Order
+            {
+                OrderDate = DateTime.UtcNow,
+                User = user,
+                Items = details,
+            };
+
+            //Smack that order object onto onto our Orders table in the DB
+            this.context.Orders.Add(order);
+            this.context.OrderDetailTemps.RemoveRange(orderTmps); //Clear out the temps
+            await this.context.SaveChangesAsync(); //save the DB
+            return true;
+        }
 
     }
 }

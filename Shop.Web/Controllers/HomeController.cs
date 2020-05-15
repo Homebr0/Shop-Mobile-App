@@ -15,6 +15,12 @@ namespace Shop.Web.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        //unused
         public IActionResult Privacy()
         {
             return View();

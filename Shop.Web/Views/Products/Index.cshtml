@@ -4,11 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Products</h1>
+<h2>Products</h2>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New</a>
-</p>
+
+
 <table class="table">
     <thead>
         <tr>
@@ -33,47 +32,53 @@
             <th>
                 @Html.DisplayNameFor(model => model.Stock)
             </th>
-            <th></th>
+            <th>
+                @if (this.User.IsInRole("Admin"))
+                {
+                    <a asp-action="Create" class="btn btn-sm btn-primary"><i class="fas fa-plus-circle"></i> Create New</a>
+                }
+            </th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @if (!string.IsNullOrEmpty(item.ImageUrl))
-                {
-                    <img src="@Url.Content(item.ImageUrl)" alt="Image" style="width:100px;height:150px;max-width: 100%; height: auto;" />
-                }
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastPurchase)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastSale)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsAvailabe)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info"><i class="fa fa-info-circle"></i></a> 
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@Url.Content(item.ImageUrl)" alt="Image" style="width:100px;height:150px;max-width: 100%; height: auto;" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastPurchase)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastSale)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsAvailabe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stock)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info"><i class="fas fa-info-circle"></i></a>
 
-                @if (this.User.IsInRole("Admin"))
-                {
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i></a> 
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                }
+                    @if (this.User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i></a>
+                    }
 
-            </td>
-        </tr>
-}
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

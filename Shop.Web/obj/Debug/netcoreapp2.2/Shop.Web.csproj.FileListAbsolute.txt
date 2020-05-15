@@ -47,3 +47,5 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Index.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Create.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Orders\AddProduct.cshtml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\bin\Debug\netcoreapp2.2\libman.json

@@ -47,3 +47,5 @@ C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Release\netcoreapp2.2\Razor\Vi
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Release\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Release\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\obj\Release\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Jason\Desktop\Projects\Shop\Shop.Web\bin\Release\netcoreapp2.2\libman.json

@@ -8,7 +8,7 @@
 
 <p>
     <a asp-action="AddProduct" class="btn btn-success">Add Product</a>
-    <a asp-action="ConfirmOrder" class="btn btn-primary">Confirm Order</a>
+    <a asp-action="ConfirmOrder" class="btn btn-primary" id="btnConfirm">Confirm Order</a>
 </p>
 <table class="table">
     <thead>
@@ -53,3 +53,44 @@
         }
     </tbody>
 </table>
+
+<div id="confirmDialog" class="modal fade">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Confirm</h4>
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-window-close"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you ready to confirm this order?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnYes">Yes</button>
+                <button type="button" class="btn btn-success" id="btnNo">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnConfirm").click(function () {
+                $("#confirmDialog").modal('show');
+                return false;
+            });
+
+            $("#btnNo").click(function () {
+                $("#confirmDialog").modal('hide');
+                return false;
+            });
+
+            $("#btnYes").click(function () {
+                window.location.href = '/Orders/ConfirmOrder';
+            });
+        });
+    </script>
+}
+

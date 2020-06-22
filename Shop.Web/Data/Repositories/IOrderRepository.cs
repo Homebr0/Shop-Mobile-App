@@ -11,6 +11,8 @@
 
         Task<IQueryable<OrderDetailTemp>> GetDetailTempsAsync(string userName);
 
+        Task<Order> GetOrdersAsync(int id);
+
         Task AddItemToOrderAsync(AddItemViewModel model, string userName);
 
         Task ModifyOrderDetailTempQuantityAsync(int id, double quantity);
@@ -19,6 +21,6 @@
 
         Task<bool> ConfirmOrderAsync(string userName);
 
-
+        Task DeliverOrder(DeliverViewModel model);
     }
 }
